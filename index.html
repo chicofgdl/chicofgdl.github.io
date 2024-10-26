@@ -5,8 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Francisco Gabriel</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
-    <h1>Teste</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Francisco Gabriel</h2>
+            <img src="./img/Foto_Perfil_Citi.jpg" alt="Foto de perfil de Francisco Gabriel">
+            <p>Olá meu nome é Francisco Gabriel e sou <span class="highlight">desenvolvedor de software</span></p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+            <div id="mail-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:fglb@cin.ufpe.br">fglb@cin.ufpe.br</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Francisco Gabriel</h1>
+            <p id="title"><span class="highlight">Desenvolvedor de Software</span></p>
+            <p class="description">Descrição</p>
+            <p class="description">Descrição</p>
+            <a href="#" class="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas skills</h2>
+            <p class="description">Conheça as tecnologias que domino</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-mongodb-plain colored"></i>
+                    <i class="devicon-prisma-plain colored"></i>
+                    <i class="devicon-firebase-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i class="devicon-react-plain colored"></i>
+                    <i class="devicon-vuejs-plain colored"></i>
+                    <i class="devicon-tailwindcss-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Metodologias</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Ferramentas</p>
+                    <i class="devicon-docker-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
