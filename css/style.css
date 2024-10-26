@@ -10,11 +10,11 @@
 :root {
     --main-color: #54b689;
     --main-text-color: #fff;
+    --secondary-text-color: #111;
     --border-color: #999;
     --bio-bg-color: #1e2a3a;
     --bio-border-color: #293544;
-    --about-bg-color: #111821;
-
+    --about-bg-color: #f4f1e8;
     --secondary-color: #333;
     --third-color: #f00;
 }
@@ -44,6 +44,7 @@
     flex: 1 1 80%;
     min-height: 100vh;
     background-color: var(--about-bg-color);
+    color: var(--secondary-text-color);
     padding: 30px 48px;
 }
 
@@ -116,6 +117,12 @@
 #name {
     font-size: 42px;
     margin-bottom: 15px;
+    color: var(--main-text-color);
+    padding: 5px 10px;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    display: inline-block;
+    background-color: var(--main-color);
 }
 
 #title {
